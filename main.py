@@ -8,7 +8,7 @@ import numpy as np
 #Function to convert phasor to rectangular form
 #Limit the answer to 4 decimal places
 
-decimalplaces=4
+decimalplaces=5
 
 def P2R(A, phi):
     R=A*np.cos(phi)
