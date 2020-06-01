@@ -1,5 +1,8 @@
+
 #Gauss seidal solution process for simple power network
-#Written By: Amila Pathirana
+
+#Written By: Amila Nuwan Pathirana, Karasin Pthirannnahalage
+
 # Date: 2014-10-17 modified on 2019-10-20
 
 # import numpy library for complex calculations
@@ -124,6 +127,7 @@ for x in range(max_iterations):
     print("Voltage Magnitudes After Iteration ", x + 1, ":", Vol)
     print("Voltage Angles (Deg) After Iteration ", x + 1, ":", Ang)
     print("////////////////////////////////////////////////////////////\n")
+    print(" :) ")
 
 
 
